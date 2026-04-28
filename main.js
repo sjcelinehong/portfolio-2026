@@ -1,6 +1,4 @@
-// ========================================
-// 프로젝트 데이터
-// ========================================
+/* 프로젝트 데이터 */
 
 const projects = [
   {
@@ -49,9 +47,7 @@ const skills = {
   ]
 };
 
-// ========================================
-// DOM 요소 선택
-// ========================================
+/* 함수 */
 
 const navbar = document.querySelector('.navbar');
 const hamburger = document.querySelector('.hamburger');
@@ -65,9 +61,7 @@ const marqueeTrack2 = document.getElementById('marqueeTrack2');
 const emailLink = document.querySelector('.email-link');
 const toast = document.getElementById('toast');
 
-// ========================================
-// 1. 네비게이션 스크롤 효과
-// ========================================
+/* 네비게이션 스크롤 */
 
 window.addEventListener('scroll', () => {
   if (window.scrollY > 20) {
@@ -77,9 +71,7 @@ window.addEventListener('scroll', () => {
   }
 }, { passive: true });
 
-// ========================================
-// 2. 햄버거 메뉴
-// ========================================
+/* 햄버거 */
 
 if (hamburger) {
   hamburger.addEventListener('click', () => {
@@ -99,9 +91,7 @@ if (navLinks) {
   });
 }
 
-// ========================================
-// 3. 진행률 바
-// ========================================
+/* 진행률 */
 
 window.addEventListener('scroll', () => {
   const scrollTop = window.scrollY;
@@ -110,9 +100,7 @@ window.addEventListener('scroll', () => {
   progressBar.style.width = scrollPercent + '%';
 }, { passive: true });
 
-// ========================================
-// 4. 스포트라이트 효과
-// ========================================
+/* 하이라이트 */
 
 document.addEventListener('mousemove', (e) => {
   const x = e.clientX;
@@ -121,9 +109,7 @@ document.addEventListener('mousemove', (e) => {
   spotlight.style.background = `radial-gradient(600px circle at ${x}px ${y}px, rgba(200, 241, 53, 0.04), transparent)`;
 }, { passive: true });
 
-// ========================================
-// 5. 프로젝트 카드 렌더링
-// ========================================
+/* 프로젝트 카드 */
 
 function renderProjects() {
   projectsContainer.innerHTML = projects.map((project, index) => `
@@ -168,9 +154,7 @@ function renderSideProjects() {
 renderProjects();
 renderSideProjects();
 
-// ========================================
-// 6. 스킬 마퀴 렌더링
-// ========================================
+/* 스킬 마퀴 */
 
 function renderMarquee() {
   const track1HTML = skills.track1.map(skill => `
@@ -194,9 +178,7 @@ function renderMarquee() {
 
 renderMarquee();
 
-// ========================================
-// 7. IntersectionObserver - 섹션 애니메이션
-// ========================================
+/* 섹션 애니메이션 */
 
 const revealElements = document.querySelectorAll('.reveal');
 
@@ -218,9 +200,7 @@ const observer = new IntersectionObserver((entries) => {
 
 revealElements.forEach(el => observer.observe(el));
 
-// ========================================
-// 8. 이메일 복사 기능
-// ========================================
+/* 이메일복사 */
 
 if (emailLink) {
   emailLink.addEventListener('click', async (e) => {
@@ -249,17 +229,13 @@ function showToast(message) {
   }, 2000);
 }
 
-// ========================================
-// 10. 페이지 로드 완료
-// ========================================
+/* 페이지 로드 */
 
 document.addEventListener('DOMContentLoaded', () => {
   console.log('포트폴리오 로드 완료 ✓');
 });
 
-// ========================================
-// 11. 터미널 라인 입장 애니메이션 (선택)
-// ========================================
+/* 터미널 애니메이션 */
 
 const terminalBlock = document.querySelector('.terminal-block');
 const terminalObserverOptions = {
@@ -279,9 +255,7 @@ if (terminalBlock) {
   terminalObserver.observe(terminalBlock);
 }
 
-// ========================================
-// 12. 모바일 네비게이션 - 메뉴 오버레이
-// ========================================
+/* 메뉴 오버레이 */
 
 function createMobileMenu() {
   const navMenu = document.createElement('div');
@@ -312,9 +286,7 @@ if (window.innerWidth <= 768) {
   createMobileMenu();
 }
 
-// ========================================
-// 13. 반응형 메뉴 토글 수정 (모바일)
-// ========================================
+/* 반응형 메뉴 */
 
 if (hamburger) {
   hamburger.addEventListener('click', () => {
