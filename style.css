@@ -599,9 +599,7 @@ button {
   }
 }
 
-/* ========================================
-   Projects Section
-   ======================================== */
+/* 프로젝트 */
 
 .project-card {
   display: block;
@@ -619,13 +617,17 @@ button {
 
 .card-image {
   aspect-ratio: 16 / 9;
-  background: linear-gradient(135deg, #0d1f0d 0%, #1a3a1a 100%);
+  background-image: url(/img/wellio.svg);
+  background-size: cover;
+  background-position: center;
   overflow: hidden;
   position: relative;
 }
 
 .project-card:nth-child(2) .card-image {
-  background: linear-gradient(135deg, #0d0d1f 0%, #1a1a3a 100%);
+  background-image: url(/img/kione.svg);
+  background-size: cover;
+  background-position: center;
 }
 
 .card-tags {

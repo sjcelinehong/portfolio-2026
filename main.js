@@ -2,24 +2,22 @@
 
 const projects = [
   {
-    title: "현대건설 힐스테이트 웹배너 시리즈",
-    desc: "준공소식 5회차 웹배너 — 맞춤 일러스트 20컷, 채택률 40% 이상 유지",
-    tags: ["Illustrator", "InDesign", "브랜드디자인"],
-    year: "2024",
-    result: "고객 체류시간 1.3배 증가 · 시리즈 톤앤매너 가이드 정립",
-    gradient: "linear-gradient(135deg, #1a0d1a, #2d1a2d)",
+    title: "가족 건강 관리 어플 - 웰리오",
+    desc: "리서치 100%, 기획 60%, 가족 관련 요소 디자인 100%",
+    tags: ["Figma", "Prototype", "프로덕트디자인"],
+    year: "2025",
+/*     result: "고객 체류시간 1.3배 증가 · 시리즈 톤앤매너 가이드 정립", */
     github: null,
-    demo: "#"
+    demo: "https://www.figma.com/deck/bxyLNKQbW6zapPgZdZcVVo/-AI-%EC%B1%97%EB%B4%87%EC%A7%80%EC%9B%90-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0--%EA%B2%B0%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C_%EB%B3%B4%EB%9E%8C3%EC%A1%B0--Wellio---Copy-?node-id=7270-2678&viewport=277%2C312%2C0.09&t=TkKcfCQcEcYc1Toq-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
   },
   {
-    title: "서식류 디자인 시스템",
-    desc: "사업지별 색상·패턴 반영 템플릿형 서식 16종 + 스타일 가이드 수립",
-    tags: ["Illustrator", "InDesign", "시스템 설계"],
-    year: "2024",
-    result: "반복 요청 70% 감소 · 문서 일관성 90% 이상 유지",
-    gradient: "linear-gradient(135deg, #0d1a1f, #1a2d33)",
-    github: null,
-    demo: "#"
+    title: "한국 최초 증류소 - 기원의 영문 웹사이트",
+    desc: "리서치 80%, 기획 50%, 메인 페이지 및 뉴스, QnA 페이지의 디자인 100% 및 개발 100%",
+    tags: ["Figma", "SPA", "가상 웹사이트 제작"],
+    year: "2025",
+/*     result: "반복 요청 70% 감소 · 문서 일관성 90% 이상 유지", */
+    github: "https://ki-one.netlify.app/",
+    demo: "https://www.figma.com/deck/euznkIy2CvKrJZHcYTXtne/-%ED%8C%80%ED%94%8C1-4%EC%A1%B0--%EA%B2%B0%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C_Ki-One-whisky--%EC%B9%A0%EB%A9%B4%EC%A1%B0---%EB%B3%B5%EC%82%AC---Copy-?node-id=2886-4277&viewport=-16698%2C-5546%2C0.7&t=Xu8CakTfqKGMkCMY-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
   }
 ];
 
