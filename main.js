@@ -22,9 +22,8 @@ const projects = [
 ];
 
 const sideProjects = [
-  { title: "업클로즈(Up-close) 전시 콘텐츠", tags: "Photoshop · InDesign · 작가 28인 협업", year: "2022", url: "#" },
-  { title: "아트바이(Artbuy) 전시 홍보 비주얼", tags: "Illustrator · SNS카드 280장 · 참여율 +40%", year: "2022", url: "#" },
-  { title: "경쟁 PT용 썸네일 디자인", tags: "Illustrator · Photoshop · 일 3종 이상", year: "2024", url: "#" }
+  { title: "AS-IS를 넘어 TO-BE로, 투비컨티뉴드", tags: "Figma · AI · Photoshop", year: "2026", url: "https://www.figma.com/deck/Ww6p1oC2XjYlT1IFFkRnl2/TOBE?node-id=1-586&p=f&viewport=-63%2C144%2C0.22&t=rM1HvNYMyqMdTYZy-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" },
+  { title: "2024 - Portfolio", tags: "Illustrator · Photoshop · InDesign", year: "2024", url: "https://www.figma.com/deck/qcVZOckIUVxVkK4LIrqpcr/%EC%A0%84%EC%9E%91?node-id=1-110&p=f&viewport=487%2C206%2C0.22&t=WGzEw8xk8jonY9Se-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" },
 ];
 
 const skills = {
